@@ -1,0 +1,108 @@
+﻿@{Layout = "_Layout";}
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                <div class="panel-actions">
+                    <a href="#" class="fa fa-caret-down"></a>
+                    <a href="#" class="fa fa-times"></a>
+                </div>
+
+                <h2 class="panel-title">Kullanıcı Güncelle</h2>
+            </header>
+            <div class="panel-body">
+                <form class="form-horizontal form-bordered" method="get">
+                    <div class="row">
+                        <div class="form-group">
+
+                            <div class="col-md-5 ml-lg  control-label">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-user"></i>
+                                    </span>
+                                    <input type="text" class="form-control" id="inputDefault" placeholder="Ad">
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-5 mr-lg control-label">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-user"></i>
+                                    </span>
+                                    <input type="text" class="form-control" id="inputDefault" placeholder="Soyad">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+
+                            <div class="col-md-5 ml-lg control-label">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-phone"></i>
+                                    </span>
+                                    <input id="phone" data-plugin-masked-input data-input-mask="(999) 999-9999" placeholder="Telefon" class="form-control">
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-5 mr-lg control-label">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-envelope"></i>
+                                    </span>
+                                    <input type="email" class="form-control" id="inputDefault" placeholder="Email">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+
+                            <div class="col-md-5 ml-lg control-label">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-key"></i>
+                                    </span>
+                                    <input type="password" class="form-control" id="inputDefault" placeholder="Şifre">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-md-6 mt-xs">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-heart"></i>
+                                        </span>
+                                        <select class="form-control" multiple="multiple" data-plugin-multiselect id="ms_example0">
+                                            <option value="cheese">Cheese</option>
+                                            <option value="tomatoes" selected>Tomatoes</option>
+                                            <option value="mozarella" selected>Mozzarella</option>
+                                            <option value="mushrooms">Mushrooms</option>
+                                            <option value="pepperoni">Pepperoni</option>
+                                            <option value="onions">Onions</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+
+                        <div class="col-md-10 ml-xs control-label">
+                            <textarea class="form-control" rows="2" id="textareaAutosize" placeholder="Adres" data-plugin-textarea-autosize></textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5 mr-lg text-right">
+                        <button type="button" class="mb-xs mt-xs mr-xs btn btn-primary">Bilgileri Güncelle</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</div>

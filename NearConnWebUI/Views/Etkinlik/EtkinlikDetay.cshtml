@@ -1,0 +1,24 @@
+﻿@{Layout = "_Layout";}
+@model EtkinlikDetayModel
+<section class="panel">
+    <header class="panel-heading">
+        <div class="panel-actions">
+            <a href="#" class="fa fa-caret-down"></a>
+            <a href="#" class="fa fa-times"></a>
+        </div>
+
+        <h2 class="panel-title">Etkinliğe Katılanlar</h2>
+    </header>
+    <div class="panel-body">
+        @foreach (var item in Model.Kullanicilar)
+        {
+            <div class="row col-md-3 mt-md">
+                <div class="panel panel-default">
+                    <img src="~/images/@item.KullaniciResim" alt="@Model.Etkinlik.EtkinlikAdi" />
+                    <div class="panel-body col-md-9">@item.KullaniciAdi @item.KullaniciSoyadi</div>
+                </div>
+            </div>
+        }
+    </div>
+
+ </section>

@@ -1,0 +1,46 @@
+﻿@{Layout = "_Layout";}
+@model EtkinlikDetayModel
+<section class="panel">
+    <header class="panel-heading">
+        <div class="panel-actions">
+            <a href="#" class="fa fa-caret-down"></a>
+            <a href="#" class="fa fa-times"></a>
+        </div>
+
+        <h2 class="panel-title">Etkinlik Listesi</h2>
+    </header>
+    <div class="panel-body">
+
+        @foreach (var item in Model.Etkinlikler)
+        {
+            
+            <div class="card col-md-3 m-lg">
+                <img src="~/images/@item.EtkinlikResim" alt="@item.EtkinlikAdi" />
+                <div class="card-body">
+                    <h4 class="card-title">@item.EtkinlikAdi</h4>
+                    <hr />
+                    <h6 class="card-text">@item.EtkinlikAciklama</h6>
+                    <hr />
+                    <h6 class="card-text">@item.EtkinlikAdres</h6>
+                    <hr />
+                    <form asp-action="EtkinlikOnay" asp-controller="Etkinlik">
+                        <input name="etkinlikId" type="hidden" value="@item.EtkinlikId" />
+                        <button type="submit" asp-action="EtkinlikOnay">Etkinliği Onayla</button>
+                    </form>
+                    <form asp-action="EtkinlikSil" asp-controller="Etkinlik">
+                        <input name="etkinlikId" type="hidden" value="@item.EtkinlikId" />
+                        <button type="submit" asp-action="EtkinlikSil">Etkinliği Reddet</button>
+                    </form>
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+        }
+    </div>
+</section>

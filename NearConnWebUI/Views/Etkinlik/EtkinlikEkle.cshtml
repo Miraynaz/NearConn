@@ -1,0 +1,72 @@
+﻿@{Layout = "_Layout";}
+@model EtkinlikModel
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                <div class="panel-actions">
+                    <a href="#" class="fa fa-caret-down"></a>
+                    <a href="#" class="fa fa-times"></a>
+                </div>
+
+                <h2 class="panel-title">Etkinlik Oluştur</h2>
+            </header>
+            <div class="panel-body">
+                <form class="form-horizontal form-bordered" method="post" asp-action="EtkinlikEkle" asp-controller="Etkinlik" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="form-group">
+
+                            <div class="col-md-3 ml-lg  control-label">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-user"></i>
+                                    </span>
+                                    <input type="text" class="form-control" id="inputDefault" asp-for="@Model.EtkinlikAdi" name="EtkinlikAdi"  placeholder="Etkinlik Adı">
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-3 control-label">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-calendar"></i>
+                                    </span>
+                                    <input type="text" data-plugin-datepicker class="form-control" asp-for="@Model.EtkinlikTarih" placeholder="Etkinlik Tarihi">
+                                </div>
+                            </div>
+                            <div class="col-md-3 control-label">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="fa fa-calendar"></i>
+                                    </span>
+                                    <input name="ImageUrl" asp-for="@Model.EtkinlikResim" />
+                                   
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                      
+                 
+                    <div class="row">
+                        <div class="form-group">
+
+                            <div class="col-md-5 ml-xs control-label">
+                                <textarea class="form-control" rows="2" id="textareaAutosize" asp-for="@Model.EtkinlikAdres" placeholder="Adres" data-plugin-textarea-autosize></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <div class="col-md-5 ml-md control-label">
+                                <textarea class="form-control" rows="2" id="textareaAutosize" asp-for="@Model.EtkinlikAciklama" placeholder="Açıklama" data-plugin-textarea-autosize></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 mr-lg text-right">
+                        <button type="submit" class="mb-xs mt-xs mr-xs btn btn-primary">Etkinlik Oluştur</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+C:\Users\ademc\Desktop\NearConn\NearConnBL\bin\Debug\netcoreapp3.1\NearConnBL.deps.json
+C:\Users\ademc\Desktop\NearConn\NearConnBL\bin\Debug\netcoreapp3.1\NearConnBL.dll
+C:\Users\ademc\Desktop\NearConn\NearConnBL\bin\Debug\netcoreapp3.1\NearConnBL.pdb
+C:\Users\ademc\Desktop\NearConn\NearConnBL\bin\Debug\netcoreapp3.1\NearConnEL.dll
+C:\Users\ademc\Desktop\NearConn\NearConnBL\bin\Debug\netcoreapp3.1\NearConnEL.pdb
+C:\Users\ademc\Desktop\NearConn\NearConnBL\obj\Debug\netcoreapp3.1\NearConnBL.csprojAssemblyReference.cache
+C:\Users\ademc\Desktop\NearConn\NearConnBL\obj\Debug\netcoreapp3.1\NearConnBL.AssemblyInfoInputs.cache
+C:\Users\ademc\Desktop\NearConn\NearConnBL\obj\Debug\netcoreapp3.1\NearConnBL.AssemblyInfo.cs
+C:\Users\ademc\Desktop\NearConn\NearConnBL\obj\Debug\netcoreapp3.1\NearConnBL.csproj.CoreCompileInputs.cache
+C:\Users\ademc\Desktop\NearConn\NearConnBL\obj\Debug\netcoreapp3.1\NearConnBL.csproj.CopyComplete
+C:\Users\ademc\Desktop\NearConn\NearConnBL\obj\Debug\netcoreapp3.1\NearConnBL.dll
+C:\Users\ademc\Desktop\NearConn\NearConnBL\obj\Debug\netcoreapp3.1\NearConnBL.pdb
+C:\Users\ademc\Desktop\NearConn\NearConnBL\bin\Debug\netcoreapp3.1\NearConnDAL.dll
+C:\Users\ademc\Desktop\NearConn\NearConnBL\bin\Debug\netcoreapp3.1\NearConnDAL.pdb

@@ -1,0 +1,15 @@
+C:\Users\ademc\Desktop\NearConn\NearConnDAL\bin\Debug\netcoreapp3.1\NearConnEL.dll
+C:\Users\ademc\Desktop\NearConn\NearConnDAL\obj\Debug\netcoreapp3.1\NearConnDAL.csprojAssemblyReference.cache
+C:\Users\ademc\Desktop\NearConn\NearConnDAL\obj\Debug\netcoreapp3.1\NearConnDAL.AssemblyInfoInputs.cache
+C:\Users\ademc\Desktop\NearConn\NearConnDAL\obj\Debug\netcoreapp3.1\NearConnDAL.AssemblyInfo.cs
+C:\Users\ademc\Desktop\NearConn\NearConnDAL\bin\Debug\netcoreapp3.1\NearConnDAL.deps.json
+C:\Users\ademc\Desktop\NearConn\NearConnDAL\bin\Debug\netcoreapp3.1\NearConnDAL.dll
+C:\Users\ademc\Desktop\NearConn\NearConnDAL\bin\Debug\netcoreapp3.1\NearConnDAL.pdb
+C:\Users\ademc\Desktop\NearConn\NearConnDAL\bin\Debug\netcoreapp3.1\NearConnEL.pdb
+C:\Users\ademc\Desktop\NearConn\NearConnDAL\obj\Debug\netcoreapp3.1\NearConnDAL.csproj.CoreCompileInputs.cache
+C:\Users\ademc\Desktop\NearConn\NearConnDAL\obj\Debug\netcoreapp3.1\NearConnDAL.csproj.CopyComplete
+C:\Users\ademc\Desktop\NearConn\NearConnDAL\obj\Debug\netcoreapp3.1\NearConnDAL.dll
+C:\Users\ademc\Desktop\NearConn\NearConnDAL\obj\Debug\netcoreapp3.1\NearConnDAL.pdb
+C:\Users\ademc\Desktop\NearConn\NearConnDAL\bin\Debug\netcoreapp3.1\NearConnDAL.runtimeconfig.json
+C:\Users\ademc\Desktop\NearConn\NearConnDAL\bin\Debug\netcoreapp3.1\NearConnDAL.runtimeconfig.dev.json
+C:\Users\ademc\Desktop\NearConn\NearConnDAL\obj\Debug\netcoreapp3.1\NearConnDAL.genruntimeconfig.cache

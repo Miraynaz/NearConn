@@ -1,0 +1,35 @@
+﻿@{Layout = "_Layout";}
+@model EtkinlikDetayModel
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                <div class="panel-actions">
+                    <a href="#" class="fa fa-caret-down"></a>
+                    <a href="#" class="fa fa-times"></a>
+                </div>
+
+                <h2 class="panel-title">İlgilenebileceğiniz Etkinlikler</h2>
+            </header>
+            <div class="panel-body">
+                @foreach (var item in Model.Etkinlikler)
+                {
+                    <div class="card col-md-3 m-lg">
+                        <img src="~/images/@item.EtkinlikResim" alt="@item.EtkinlikAdi" />
+                        <div class="card-body">
+                            <h4 class="card-title">@item.EtkinlikAdi</h4>
+
+                            <h6 class="card-text">@item.EtkinlikAciklama</h6>
+                            <button class="btn-primary">Etkinliğe Katıl</button>
+
+                         
+                        </div>
+
+                    </div>
+
+
+                }
+            </div>
+        </section>
+    </div>
+</div>
